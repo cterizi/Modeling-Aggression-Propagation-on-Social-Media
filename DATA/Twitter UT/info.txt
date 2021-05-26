@@ -1,0 +1,39 @@
+Files:
+
+nodeId.edges : The edges in the ego network for the node 'nodeId'. Edges are undirected for facebook, and directed (a follows b) for twitter and gplus. The 'ego' node does not appear, but it is assumed that they follow every node id that appears in this file.
+
+nodeId.circles : The set of circles for the ego node. Each line contains one circle, consisting of a series of node ids. The first entry in each line is the name of the circle.
+
+nodeId.feat : The features for each of the nodes that appears in the edge file.
+
+nodeId.egofeat : The features for the ego user.
+
+nodeId.featnames : The names of each of the feature dimensions. Features are '1' if the user has this property in their profile, and '0' otherwise. This file has been anonymized for facebook users, since the names of the features would reveal private data.
+
+This dataset consists of 'circles' (or 'lists') from Twitter. Twitter data was crawled from public sources. The dataset includes node features (profiles), circles, and ego networks.
+
+Data is also available from Facebook and Google+.
+
+
+Dataset statistics
+Nodes	81306
+Edges	1768149
+Nodes in largest WCC	81306 (1.000)
+Edges in largest WCC	1768149 (1.000)
+Nodes in largest SCC	68413 (0.841)
+Edges in largest SCC	1685163 (0.953)
+Average clustering coefficient	0.5653
+Number of triangles	13082506
+Fraction of closed triangles	0.06415
+Diameter (longest shortest path)	7
+90-percentile effective diameter	4.5
+
+Source (citation)
+J. McAuley and J. Leskovec. Learning to Discover Social Circles in Ego Networks. NIPS, 2012.
+
+Files
+File	Description
+twitter.tar.gz	Twitter data (973 networks)
+twitter_combined.txt.gz	Edges from all egonets combined
+readme-Ego.txt	Description of files
+
