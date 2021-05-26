@@ -12,5 +12,6 @@ In folder DATA there are the following files:
 
 2) Labeled Dataset (LT) in 2019 (Add file name, Add more info in README in DATA folder)
 
-3) Unlabeled Dataset (UT): Full Net (Add file name, Add more info in README in DATA folder)
+3) Unlabeled Dataset (UT): [Full Net](https://snap.stanford.edu/data/ego-Twitter.html) (Add file name, Add more info in README in DATA folder)
+
 
